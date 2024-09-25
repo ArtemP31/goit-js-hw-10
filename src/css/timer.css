@@ -1,18 +1,93 @@
-a{
-    margin-left: 10px;
-    margin-bottom: 10px;
+a {
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-.timer{
-    display: flex;
-    gap: 10px;
-    padding-left: 10px;
+.input-btn{
+    margin-left: 15px;
+    margin-bottom: 32px;
+    margin-top: 10px;
+    height: 40px;
+    width: 355px;
 }
 
-.field{
-    display: grid;
+.timer {
+  display: flex;
+  gap: 24px;
+  margin-left: 15px;
+  width: 346px;
+  justify-content: center;
 }
 
-input{
-    margin-left: 10px;
+.field {
+  display: grid;
+  width: 100%;
+  height: 72px;
+}
+
+section > input {
+  margin-left: 10px;
+}
+
+.input-data {
+  width: 272px;
+  height: 40px;
+  padding-left: 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 253px;
+}
+
+.input-data:hover,
+.input-data:focus {
+  border-color: #000000;
+}
+
+.input-data:disabled {
+  background-color: #fafafa;
+}
+
+.input-data:active {
+  border-color: #4e75ff;
+}
+
+.btn-timer:disabled {
+  background-color: #cfcfcf;
+}
+
+.btn-timer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #4e75ff;
+  color: #ffffff;
+  border: none;
+}
+
+
+.btn-timer:hover,
+.btn-timer:focus {
+  background-color: #6c8cff;
+}
+
+.value {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
 }
